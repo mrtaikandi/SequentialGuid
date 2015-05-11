@@ -1,9 +1,10 @@
-﻿{
-  "version": "1.0.0-*",
-  "description": "Provides a utility class for generating sequential globally unique identifiers (GUID).",
+﻿{  
+  "title": "Sequential Guid",
+  "version": "1.0.0-beta",
+  "description": "Provides a utility class for generating sequential globally unique identifiers (GUID) by using DateTime offset to use in both .NET Framework and .NET Core.",
   "authors": [ "Mohammadreza Taikandi" ],
   "tags": [ "SequentialGuid", "COMB", "Guid" ],
-  "projectUrl": "",
+  "projectUrl": "https://github.com/mrtaikandi/SequentialGuid",
   "licenseUrl": "",
 
   "dependencies": {
@@ -14,14 +15,14 @@
     "net451": { },
     "net452": { },
     "net46": { },
-    "dnx451": { },   
+    "dnx451": { },
     "dnxcore50": {
       "dependencies": {
-        "System.Collections": "4.0.10-beta-22816",
-        "System.Linq": "4.0.0-beta-22816",
-        "System.Threading": "4.0.10-beta-22816",
-        "Microsoft.CSharp": "4.0.0-beta-22816",
-        "System.Runtime.Extensions": "4.0.10-beta-22816"
+        "System.Collections": "4.0.10-*",
+        "System.Linq": "4.0.0-*",
+        "System.Threading": "4.0.10-*",
+        "Microsoft.CSharp": "4.0.0-*",
+        "System.Runtime.Extensions": "4.0.10-*"
       }
     }
   }
