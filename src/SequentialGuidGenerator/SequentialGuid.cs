@@ -32,6 +32,9 @@
             var guid = Guid.NewGuid().ToByteArray();
             var ticks = BitConverter.GetBytes(GetTicks());
 
+            if( !BitConverter.IsLittleEndian )
+                Array.Reverse(ticks);
+
             return new Guid(new[]
                 {
                     guid[0], guid[1], guid[2], guid[3],
