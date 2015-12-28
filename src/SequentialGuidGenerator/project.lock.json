@@ -5,7 +5,9 @@
     ".NETFramework,Version=v4.5": {},
     ".NETFramework,Version=v4.5.1": {},
     ".NETFramework,Version=v4.5.2": {},
+    ".NETFramework,Version=v4.6": {},
     "DNX,Version=v4.5.1": {},
+    "DNX,Version=v4.5.2": {},
     "DNXCore,Version=v5.0": {
       "Microsoft.CSharp/4.0.0": {
         "type": "package",
@@ -299,8 +301,12 @@
     ".NETFramework,Version=v4.5.1/win7-x64": {},
     ".NETFramework,Version=v4.5.2/win7-x86": {},
     ".NETFramework,Version=v4.5.2/win7-x64": {},
+    ".NETFramework,Version=v4.6/win7-x86": {},
+    ".NETFramework,Version=v4.6/win7-x64": {},
     "DNX,Version=v4.5.1/win7-x86": {},
     "DNX,Version=v4.5.1/win7-x64": {},
+    "DNX,Version=v4.5.2/win7-x86": {},
+    "DNX,Version=v4.5.2/win7-x64": {},
     "DNXCore,Version=v5.0/win7-x86": {
       "Microsoft.CSharp/4.0.0": {
         "type": "package",
@@ -1684,7 +1690,9 @@
     ".NETFramework,Version=v4.5": [],
     ".NETFramework,Version=v4.5.1": [],
     ".NETFramework,Version=v4.5.2": [],
+    ".NETFramework,Version=v4.6": [],
     "DNX,Version=v4.5.1": [],
+    "DNX,Version=v4.5.2": [],
     "DNXCore,Version=v5.0": [
       "System.Collections >= 4.0.10-*",
       "System.Linq >= 4.0.0-*",

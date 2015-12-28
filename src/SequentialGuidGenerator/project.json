@@ -13,8 +13,10 @@
   "frameworks": {
     "net45": { },
     "net451": { },
-    "net452": { },    
+    "net452": { },
+    "net46": { },
     "dnx451": { },
+    "dnx452": { },
     "dnxcore50": {
       "dependencies": {
         "System.Collections": "4.0.10-*",
