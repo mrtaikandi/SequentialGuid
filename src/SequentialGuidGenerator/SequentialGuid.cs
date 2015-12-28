@@ -17,7 +17,7 @@
         /// </summary>
         public static readonly Guid Empty = Guid.Empty;
 
-        private static int _counter;
+        private static long _counter;
 
         #endregion
 
@@ -132,8 +132,10 @@
 
         private static long GetTicks()
         {
-            var i = Interlocked.Increment(ref _counter);
-            return DateTime.UtcNow.Ticks + i;
+            if( _counter == 0 )
+                _counter = DateTime.UtcNow.Ticks;
+
+            return Interlocked.Increment(ref _counter);            
         }
 
         #endregion
