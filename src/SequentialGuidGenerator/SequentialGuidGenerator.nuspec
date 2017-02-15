@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>SequentialGuidGenerator</id>
+    <version>1.1.0</version>
+    <title>Sequential Guid</title>
+    <authors>Mohammadreza Taikandi</authors>
+    <owners>Mohammadreza Taikandi</owners>
+    <projectUrl>https://github.com/mrtaikandi/SequentialGuid</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Provides a utility class for generating sequential globally unique identifiers (GUID) by using DateTime offset to use in both .NET Framework and .NET Core.</description>
+    <releaseNotes></releaseNotes>
+    <copyright>Copyright 2017</copyright>
+    <tags>SequentialGuid COMB Guid</tags>
+  </metadata>
+  <files>
+    <file src="lib\**" target="lib" />
+  </files>
+</package>
